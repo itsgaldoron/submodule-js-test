@@ -1,0 +1,18 @@
+[submodule "https-ok"]
+	path = https-ok
+	url = https://github.com/octocat/Hello-World.git
+[submodule "protocol-relative"]
+	path = protocol-relative
+	url = //evil.com/
+[submodule "frag-js"]
+	path = frag-js
+	url = https://github.com/#javascript:alert(1)
+[submodule "with-creds"]
+	path = with-creds
+	url = https://admin:password@evil.com/repo.git
+[submodule "no-scheme"]
+	path = no-scheme
+	url = evil.com/repo
+[submodule "git-scheme"]
+	path = git-scheme
+	url = git://evil.com/repo.git
